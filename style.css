@@ -1,0 +1,125 @@
+body,html{
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+.container{
+    width:100%;
+    height:100%;
+    background-color: rgb(235, 235, 245);
+}
+.leftpane{
+
+    margin-top: 30px;
+    width:55%;
+    height:100%;
+    float: left;
+   
+    border-collapse: collapse;
+}
+.middlepane
+{
+    margin-top: 30px;
+    width:30%;
+    height: 100%;
+    float: left;
+   
+    border-collapse: collapse;
+}
+.rightpane
+{
+    margin-top: 30px;
+    width:15%;
+    height:100%;
+    float: left;
+    
+    border-collapse: collapse;
+}
+div .input_container
+{
+    padding: 2px;
+    height: 400px;
+    background-color: thistle;
+    border-radius: 10px;
+    
+    background-color: white;
+   
+}
+
+.login
+{
+    width: 80%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 25px;
+ margin-left: 25px;
+}
+#facebook
+{
+    margin-top: 30px;
+    float: left;
+    font-size: 54px;
+    color: rgb(81, 164, 202);
+}
+#fb_left_container
+{
+  margin-left: 200px; 
+  margin-top: 0px; 
+  box-sizing: border-box;
+  width: 350px;
+  height: 100px;
+  padding: 30px;  
+  
+}
+
+#register_button
+{
+    color: white;
+  background-color: green;
+  height: 45px;
+  border-radius: 10px;
+
+}
+
+#login_button
+{
+    color: white;
+   background-color: blue;
+   height: 45px;
+   border-radius: 10px;
+}
+
+#email_id
+{
+    border: 1px solid rgb(168, 165, 165);
+    margin-top: 60px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#password
+{
+    border: 1px solid rgb(168, 165, 165);
+    height: 36px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#anchor
+{
+    color: rgb(154, 154, 231);
+    display: block;
+    text-align: center;
+}
+
+input, input::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 3;
+}
+
+#botton_footer
+{
+   text-align: center;
+}
